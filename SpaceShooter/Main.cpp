@@ -19,9 +19,6 @@ int main()
 		window.draw(shape);
 		window.display();
 	}
-//AddedCOmments
-	//this comment should be pushed to github
-    //this comment is from ubuntu laptop
-	//sending commits for ubuntu 
+
 	return 0;
 }
