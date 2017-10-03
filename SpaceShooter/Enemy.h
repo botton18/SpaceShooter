@@ -1,3 +1,5 @@
+#ifndef ENEMY_H
+#define ENEMY_H
 #include <SFML/Graphics.hpp>
 #include "Entity.h"
 
@@ -9,6 +11,7 @@ private:
 public:
 	Enemy();
 	void move();
-
+    void draw(sf::RenderWindow &win);
 
 };
+#endif
