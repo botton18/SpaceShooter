@@ -10,7 +10,7 @@ private:
 	sf::Sprite e_sprite;
 public:
 	Enemy();
-	void move();
+	void move(float  x);
     void draw(sf::RenderWindow &win);
 
 };

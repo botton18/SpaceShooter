@@ -9,7 +9,7 @@ protected:
 	int lives;
 public:
 
-	virtual void move() {};
+	virtual void move(int x) {};
 	bool Collision( Entity );
 	sf::Vector2f getPosition();
 	
